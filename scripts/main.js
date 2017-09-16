@@ -78,9 +78,9 @@
   myImage.onclick = function() {
       var mySrc = myImage.getAttribute('src');
       if(mySrc === 'images/HTML.png') {
-        myImage.setAttribute ('src','C:\Users\Thaddeious\Desktop\Newfolder\collinashbaugh.github.io\images\JavaScript.png');
+        myImage.setAttribute ('src','images\JavaScript.png');
       } else {
-        myImage.setAttribute ('src','C:\Users\Thaddeious\Desktop\Newfolder\collinashbaugh.github.io\images\HTML.png');
+        myImage.setAttribute ('src','images\HTML.png');
       }
   }
 })();
