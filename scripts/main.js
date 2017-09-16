@@ -78,7 +78,7 @@
   myImage.onclick = function() {
       var mySrc = myImage.getAttribute('src');
       if(mySrc === 'https://freeiconshop.com/wp-content/uploads/edd/html-flat.png') {
-        myImage.setAttribute ('src','https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png');
+        myImage.setAttribute ('src','https://www.google.com/search?biw=1920&bih=1014&tbm=isch&sa=1&q=javascript+icon&oq=javascicon&gs_l=psy-ab.3.0.0i7i30k1l4.51968.57447.0.58759.10.8.2.0.0.0.164.801.7j1.8.0....0...1.1.64.psy-ab..1.9.724...0j0i13k1j0i67k1.0.IU0TUc3V_R4#imgrc=14H7h2VDBaJN5M:');
       } else {
         myImage.setAttribute ('src','https://freeiconshop.com/wp-content/uploads/edd/html-flat.png');
       }
