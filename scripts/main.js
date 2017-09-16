@@ -77,10 +77,10 @@
   
   myImage.onclick = function() {
       var mySrc = myImage.getAttribute('src');
-      if(mySrc === 'images/HTML.png') {
-        myImage.setAttribute ('src','images\JavaScript.png');
+      if(mySrc === 'https://freeiconshop.com/wp-content/uploads/edd/html-flat.png') {
+        myImage.setAttribute ('src','https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png');
       } else {
-        myImage.setAttribute ('src','images\HTML.png');
+        myImage.setAttribute ('src','https://freeiconshop.com/wp-content/uploads/edd/html-flat.png');
       }
   }
 })();
